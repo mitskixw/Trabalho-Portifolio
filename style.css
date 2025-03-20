@@ -1,9 +1,7 @@
-section {
-    padding: 50px;
-    margin: 20px 0;
-    border: 1px solid #ccc;
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
 }
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #007BFF;
