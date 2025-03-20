@@ -26,6 +26,7 @@ header {
     flex-direction: row;
 }
 a {
+    font-size: large;
     text-decoration: none;
     color: #b8d1ff;
 }
