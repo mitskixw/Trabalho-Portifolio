@@ -1,7 +1,12 @@
 header h1 {
     background-color: pink;
     padding: 20px;
-    text-align: center;
+    text-align: right;
     font-size: 24px;
     color: white;
+}
+header {
+    background-color: pink;
+    padding: 20px;
+  
 }
