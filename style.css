@@ -13,4 +13,5 @@ header {
 }
 header a {
     display: flex;
+            justify-content: space-evenly;
 }
