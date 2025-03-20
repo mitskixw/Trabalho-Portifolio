@@ -13,5 +13,6 @@ header {
 }
 header a {
     display: flex;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
+    text-align: right;
 }
