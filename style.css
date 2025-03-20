@@ -6,6 +6,9 @@ header h1 {
     color: white;
 }
 header {
+    
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
     background-color: pink;
     padding: 20px;
     display: flex;
