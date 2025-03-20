@@ -1,3 +1,8 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+
 header h1 {
     background-color: pink;
     padding: 20px;
@@ -7,7 +12,6 @@ header h1 {
 }
 header {
     
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
     background-color: pink;
     padding: 20px;
