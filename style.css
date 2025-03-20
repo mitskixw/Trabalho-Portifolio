@@ -1,7 +1,5 @@
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-</style>
 
 header h1 {
     background-color: pink;
@@ -12,7 +10,7 @@ header h1 {
 }
 header {
     
-
+font-style: var(.googleapis);
     background-color: pink;
     padding: 20px;
     display: flex;
