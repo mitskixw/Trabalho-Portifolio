@@ -100,14 +100,5 @@ header {
     align-items: center; /* Alinha verticalmente */
 }
 .painel {
-    position: grid;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400%;
-    background-image: https://static.vecteezy.com/system/resources/thumbnails/024/722/196/small_2x/cute-birthday-kitten-background-free-vector.jpg;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
+    background-image: url(painel(1).png);
 }
