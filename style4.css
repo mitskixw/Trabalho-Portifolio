@@ -1,5 +1,17 @@
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --azul-claro: #b8d1ff;
+    --rosa-claro: rgb(255, 228, 240);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -11,7 +23,7 @@
 a {
     font-size: xx-large;
     text-decoration: none;
-    color: #b8d1ff;
+    color: var(--azul-claro);
 }
 
 /* Cabeçalho */
@@ -42,10 +54,10 @@ header h1 {
     cursor: pointer;
     font-size: 2rem;
     background: none;
-    background-color: mediumslateblue;
+    background-color: rgb(205, 196, 255);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: #b8d1ff;
+    color: var(--azul-claro);
 }
 
 /* Lista vertical (dropdown) */
@@ -54,8 +66,8 @@ header h1 {
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: mediumslateblue;
-    box-shadow: 0 2px 5px midnightblue;
+    background-color: rgb(90, 72, 196);
+    box-shadow: 0 2px 5px rgb(251, 229, 255);
     min-width: 190px;
     z-index: 1000;
     top: 100%;
@@ -65,7 +77,7 @@ header h1 {
 }
 
 .lista-vertical a {
-    color: #b8d1ff;
+    color: var(--azul-claro);
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 2rem;
@@ -74,7 +86,7 @@ header h1 {
 }
 
 .lista-vertical a:hover {
-    background-color: mediumslateblue;
+    background-color: rgb(90, 72, 196);
 }
 
 /* Controle do menu toggle */
@@ -89,7 +101,7 @@ header h1 {
 }
 
 #menu-toggle:checked + .botao-disciplinas {
-    background-color: black;
+    background-color: rgb(193, 255, 255);
 }
 
 header {
@@ -104,20 +116,23 @@ header {
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed; /* Opcional - efeito parallax */
-            font-size: x-large;
+            font-size: xxx-large;
             /* Garante que o elemento ocupe a tela toda */
             position: relative;
             min-height: 100vh;
             width: 100%;
-            
+            font-family: "Bebas Neue", sans-serif;
             /* Estilo para o texto sobre a imagem */
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-family: "Pacifico", cursive;
 }
-    .conteudo {
-        background-color: pink;
-        padding: 30px;
-    }
+
+.texto {
+    background-color: var(--rosa-claro);
+    padding: 40px;
+    color: white;
+}
