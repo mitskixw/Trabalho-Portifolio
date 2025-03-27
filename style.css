@@ -61,6 +61,9 @@ header h1 {
     min-width: 190px;
     z-index: 1000;
     top: 100%;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .lista-vertical a {
@@ -83,6 +86,8 @@ header h1 {
 
 #menu-toggle:checked ~ .lista-vertical {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #menu-toggle:checked + .botao-disciplinas {
