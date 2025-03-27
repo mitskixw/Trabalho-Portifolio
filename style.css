@@ -106,7 +106,7 @@ header {
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed; /* Opcional - efeito parallax */
-            
+            font-size: x-large;
             /* Garante que o elemento ocupe a tela toda */
             position: relative;
             min-height: 100vh;
