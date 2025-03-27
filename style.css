@@ -101,5 +101,8 @@ header {
 }
 .painel {
     background-image: url(painel(1).png);
+}
+.painel h1 {
     align-items: center;
+    display: flex;
 }
