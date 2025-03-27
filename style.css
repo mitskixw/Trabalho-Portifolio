@@ -47,3 +47,12 @@ a {
 #menu-toggle {
     display: none;
 }
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: mediumslateblue;
+    box-shadow: 0 2px 5px midnightblue;
+    min-width: 190px;
+    z-index: 1;
+    top: 100%;
+}
