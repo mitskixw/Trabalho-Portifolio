@@ -100,7 +100,7 @@ header {
     align-items: center; /* Alinha verticalmente */
 }
 .painel {
-    position: fixed;
+    position: grid;
     top: 0;
     left: 0;
     width: 100%;
