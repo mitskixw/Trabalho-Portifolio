@@ -68,7 +68,7 @@ header h1 {
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: rgb(210, 202, 255);
+    background-color: rgb(90, 72, 196);
     box-shadow: 0 2px 5px rgb(251, 229, 255);
     min-width: 190px;
     z-index: 1000;
@@ -88,7 +88,7 @@ header h1 {
 }
 
 .lista-vertical a:hover {
-    background-color: rgb(211, 203, 255);
+    background-color: rgb(90, 72, 196);
 }
 
 /* Controle do menu toggle */
