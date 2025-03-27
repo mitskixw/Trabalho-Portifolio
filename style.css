@@ -64,3 +64,13 @@ a {
     display: block;
     text-align: center;
 }
+
+.lista-vertical a:hover {
+    background-color: mediumslateblue;
+}
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-disciplinas {
+    background-color: black;
+}
