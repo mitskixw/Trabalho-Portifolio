@@ -123,5 +123,6 @@ header {
 .texto {
     background-color: rgb(255, 228, 240);
     padding: 40px;
+    color: white;
 
 }
