@@ -43,3 +43,7 @@ a {
     text-decoration: none;
     color: #b8d1ff;
 }
+
+#menu-toggle {
+    display: none;
+}
