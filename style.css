@@ -29,6 +29,15 @@ header {
     width: 20%;
     display: inline-block;
 }
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    background-color: mediumslateblue;
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: #b8d1ff;
+}
 a {
     font-size: xx-large;
     text-decoration: none;
