@@ -63,7 +63,7 @@ header h1 {
     top: 100%;
     opacity: 0;
     transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 3s ease;
+    transition: opacity 3s ease, transform 3s ease;
 }
 
 .lista-vertical a {
