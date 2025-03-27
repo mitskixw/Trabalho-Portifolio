@@ -119,8 +119,9 @@ header {
             color: white;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-    .conteudo {
-        background-color: pink;
-        padding: 30px;
-    }
-    
+
+.texto {
+    background-color: rgb(255, 228, 240);
+    padding: 40px;
+
+}
