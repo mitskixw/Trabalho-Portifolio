@@ -21,9 +21,6 @@ header {
     font-family: "Bebas Neue", sans-serif;
     background-color: pink;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 
 header h1 {
@@ -39,6 +36,8 @@ header h1 {
 .menu-disciplina {
     width: 20%;
     display: inline-block;
+    position: relative;
+
 }
 
 .botao-disciplinas {
@@ -55,10 +54,12 @@ header h1 {
 .lista-vertical {
     display: none;
     position: absolute;
+    left: 0;
+    width: 100%;
     background-color: mediumslateblue;
     box-shadow: 0 2px 5px midnightblue;
     min-width: 190px;
-    z-index: 1;
+    z-index: 1000;
     top: 100%;
 }
 
@@ -86,4 +87,10 @@ header h1 {
 
 #menu-toggle:checked + .botao-disciplinas {
     background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribui o título e o menu */
+    align-items: center; /* Alinha verticalmente */
 }
