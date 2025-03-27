@@ -101,4 +101,5 @@ header {
 }
 .painel {
     background-image: url(painel(1).png);
+    align-items: center;
 }
