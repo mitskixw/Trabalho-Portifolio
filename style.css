@@ -65,11 +65,11 @@ header h1 {
     cursor: pointer;
     font-size: 2rem;
     background: none;
-    background-color: rgb(253 217 209), rgb(177 201 255);
+    background-color: rgb(253 217 209);
     border: none;
     padding: 1.05rem 1.5rem;
     color: var(--azul-claro);
-    box-shadow: 0 0 0 10px #fffab8, ;
+    box-shadow: 0 0 0 10px #fffab8, rgb(177 201 255); ;
 }
 
 /* Lista vertical (dropdown) */
