@@ -1,11 +1,22 @@
+
+
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 
 :root{
     --azul-claro: #fffab8;
     --rosa-claro: rgb(255, 228, 240);
 }
+.caveat-<uniquifier> {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
 
 .pacifico-regular {
     font-family: "Pacifico", cursive;
@@ -138,6 +149,6 @@ header {
 }
 footer {
     background-color:pink ;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Caveat", cursive;
     color: hsl(0, 0%, 100%);
 }
