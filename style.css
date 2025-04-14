@@ -141,5 +141,5 @@ header {
 footer {
     background-color:pink ;
     font-family: "Bebas Neue", sans-serif;
-    color: #fffab8;
+    color: hsl(0, 0%, 100%);
 }
